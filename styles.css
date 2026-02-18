@@ -1,0 +1,88 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c7fcd7;
+}
+
+.container {
+    background-color: #e6867a;
+    text-align: center;
+    margin-top: 35vh;
+    border-radius: 15px;
+    border: 10px solid #d9ab91;
+    width: 90%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+}
+
+div h1 {
+    color: #d9d5a7;
+    margin-bottom: 25px;
+}
+
+div h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #d9d5a7;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #d9d5a7;
+}
+
+/*Textos da Barra*/
+div label {
+    font-size: 25px;
+    color: #d9d5a7;
+}
+
+/*Estilo Botao*/
+div button {
+    background-color: #ed4a6a;
+    color: #d9d5a7;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #ED5D4A;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+div button:hover {
+    color: #C6DB37;
+}
+
+div button:active {
+    color: #DBBA37;
+}
+
+/*Barra de digitacao*/
+#peso {
+    background-color: #c7fcd7;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+
+#altura {
+    background-color: #c7fcd7;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 3px;
+}
